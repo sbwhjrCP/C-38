@@ -31,6 +31,9 @@ function setup(){
 
 
 function draw(){
+  textFont("Action Jackson");
+    textSize(30);
+    text("Happy Diwali",camera.position.x-200,camera.position.y-200);
   if(playerCount === 4){
     game.update(1);
   }
@@ -40,8 +43,6 @@ function draw(){
   }
   if(gameState === 2){
     game.end();
-    textFont("Action Jackson");
-    textSize(30);
-    text("Happy Diwali",200,200);
+    
   }
 }
