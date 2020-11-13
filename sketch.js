@@ -40,5 +40,8 @@ function draw(){
   }
   if(gameState === 2){
     game.end();
+    textFont("Action Jackson");
+    textSize(30);
+    text("Happy Diwali",200,200);
   }
 }
